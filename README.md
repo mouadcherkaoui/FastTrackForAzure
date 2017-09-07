@@ -3,8 +3,10 @@ We are a team of dedicated engineers providing customers structured guidance to 
 
 # Table of Contents
 
-## App Modernization
-* See the [App Modernization scenario](https://github.com/Azure/fta-appmodernization)
+## Solutions
+* [Backup, Archive & Disaster Recovery](https://github.com/Azure/fta-backuparchivedr)
+* [Internal Business Apps](https://github.com/Azure/fta-internalbusinessapps)
+* [Customer Facing Apps](https://github.com/Azure/fta-customerfacingapps)
 
 ## Azure 101
 * Onboarding Team Introduction ( [ Introduction ] )
