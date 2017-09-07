@@ -11,3 +11,5 @@ We are a team of dedicated engineers providing customers structured guidance to 
     - App Modernization
     - Lift and Shift    
 * [Customer Facing Apps](https://github.com/Azure/fta-customerfacingapps)
+	- Digital Marketing
+	- E-commerce
