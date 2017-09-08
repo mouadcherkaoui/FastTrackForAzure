@@ -1,2 +1,2 @@
-![Into](Introslide1.png)
+![Screenshot](Introslide1.png)
 
