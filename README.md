@@ -14,5 +14,5 @@ We are a team of dedicated engineers providing customers structured guidance to 
 	- Digital Marketing
 	- E-commerce
 * [Data Platfrom](https://github.com/Azure/dataplatform)
-	- SQL on IaaS
+	- SQL on Azure IaaS
 	- Azure SQL DB
