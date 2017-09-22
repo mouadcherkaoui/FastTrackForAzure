@@ -13,6 +13,6 @@ We are a team of dedicated engineers providing customers structured guidance to 
 * [Customer Facing Apps](https://github.com/Azure/fta-customerfacingapps)
 	- Digital Marketing
 	- E-commerce
-* [Data Platfrom](https://github.com/Azure/dataplatform)
+* [Data Platfrom](https://github.com/Azure/fta-dataplatform)
 	- SQL on Azure IaaS
 	- Azure SQL DB
