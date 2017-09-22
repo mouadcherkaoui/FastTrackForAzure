@@ -16,3 +16,4 @@ We are a team of dedicated engineers providing customers structured guidance to 
 * [Data Platfrom](https://github.com/Azure/fta-dataplatform)
 	- SQL on Azure IaaS
 	- Azure SQL DB
+* [SAP on Azure](https://github.com/Azure/fta-saponazure)
