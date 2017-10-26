@@ -17,6 +17,8 @@ We are a team of dedicated engineers providing customers structured guidance to 
 	- SQL on Azure IaaS
 	- Azure SQL DB
 * [SAP on Azure](https://github.com/Azure/fta-saponazure)
+	- Windows
+	- Linux
 * [DevOps](https://github.com/Azure/fta-devops)
 	- DevTest Labs
 	- VSTS
