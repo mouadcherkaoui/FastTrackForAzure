@@ -23,6 +23,9 @@ We are a team of dedicated engineers providing customers structured guidance to 
 	- DevTest Labs
 	- VSTS
 * [Azure Fundamentals](https://github.com/Azure/fta-azurefundamentals)
+	- IaaS Fundamentals
+	- PaaS Fundamentals
+	- Governance
 * [Architectural Review](https://github.com/Azure/fta-architecturalreview)
 	- App Modernization
 	- Backup and Archiving
