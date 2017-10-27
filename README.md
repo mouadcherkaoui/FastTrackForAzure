@@ -4,6 +4,11 @@ We are a team of dedicated engineers providing customers structured guidance to 
 # Table of Contents
 
 ## Solutions and supporting scenario's
+
+* [Azure Fundamentals](https://github.com/Azure/fta-azurefundamentals)
+	- IaaS Fundamentals
+	- PaaS Fundamentals
+	- Governance
 * [Backup, Archive & Disaster Recovery](https://github.com/Azure/fta-backuparchivedr)
     - Backup and Archive
     - Disaster Recovery with ASR
@@ -22,10 +27,6 @@ We are a team of dedicated engineers providing customers structured guidance to 
 * [DevOps](https://github.com/Azure/fta-devops)
 	- DevTest Labs
 	- VSTS
-* [Azure Fundamentals](https://github.com/Azure/fta-azurefundamentals)
-	- IaaS Fundamentals
-	- PaaS Fundamentals
-	- Governance
 * [Architectural Review](https://github.com/Azure/fta-architecturalreview)
 	- App Modernization
 	- Backup and Archiving
