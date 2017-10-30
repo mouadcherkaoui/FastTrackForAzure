@@ -20,13 +20,13 @@ We are a team of dedicated engineers providing customers structured guidance to 
 	- [E-commerce](https://github.com/Azure/fta-customerfacingapps/blob/master/ecommerce/articles/README.md)
 * [Data Platfrom](https://github.com/Azure/fta-dataplatform)
 	- [SQL on Azure IaaS](https://github.com/Azure/fta-dataplatform/blob/master/sql-server-on-azure-vms/articles/sql-server-on-azure-vms.md)
-	- [Azure SQL DB](https://github.com/Azure/fta-dataplatform/blob/master/azure-sql-database/articles/readme.md)
+	- [Azure SQL DB](https://github.com/Azure/fta-dataplatform/blob/master/azure-sql-database/articles/)
 * [SAP on Azure](https://github.com/Azure/fta-saponazure)
 	- Windows
 	- Linux
 * [DevOps](https://github.com/Azure/fta-devops)
-	- [DevTest Labs](https://github.com/Azure/fta-devops/blob/master/devtest-labs/articles/readme.md)
-	- [Mobile DevOps](https://github.com/Azure/fta-devops/blob/master/mobile-devops/articles/readme.md)
+	- [DevTest Labs](https://github.com/Azure/fta-devops/blob/master/devtest-labs/articles/)
+	- [Mobile DevOps](https://github.com/Azure/fta-devops/blob/master/mobile-devops/articles/)
 	- VSTS
 * [Architectural Review](https://github.com/Azure/fta-architecturalreview)
 	- [App Modernization](https://github.com/Azure/fta-architecturalreview/blob/master/articles/application-modernisation.md)
