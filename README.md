@@ -6,30 +6,31 @@ We are a team of dedicated engineers providing customers structured guidance to 
 ## Solutions and supporting scenario's
 
 * [Azure Fundamentals](https://github.com/Azure/fta-azurefundamentals)
-	- IaaS Fundamentals
+	- [IaaS Fundamentals](https://github.com/Azure/fta-azurefundamentals/blob/master/iaas-fundamentals/articles/website-on-iaas-http.md)
 	- PaaS Fundamentals
 	- Governance
 * [Backup, Archive & Disaster Recovery](https://github.com/Azure/fta-backuparchivedr)
     - Backup and Archive
     - Disaster Recovery with ASR
 * [Internal Business Apps](https://github.com/Azure/fta-internalbusinessapps)
-    - App Modernization
+    - [App Modernization](https://github.com/Azure/fta-internalbusinessapps/blob/master/appmodernization/articles/internal-business-application-on-paas.md)
     - Lift and Shift    
 * [Customer Facing Apps](https://github.com/Azure/fta-customerfacingapps)
-	- Digital Marketing
-	- E-commerce
+	- [Digital Marketing](https://github.com/Azure/fta-customerfacingapps/blob/master/digital-marketing/articles/wordpress-on-azure-web-apps.md)
+	- [E-commerce](https://github.com/Azure/fta-customerfacingapps/blob/master/ecommerce/articles/README.md)
 * [Data Platfrom](https://github.com/Azure/fta-dataplatform)
-	- SQL on Azure IaaS
-	- Azure SQL DB
+	- [SQL on Azure IaaS](https://github.com/Azure/fta-dataplatform/blob/master/sql-server-on-azure-vms/articles/sql-server-on-azure-vms.md)
+	- [Azure SQL DB](https://github.com/Azure/fta-dataplatform/blob/master/azure-sql-database/articles/readme.md)
 * [SAP on Azure](https://github.com/Azure/fta-saponazure)
 	- Windows
 	- Linux
 * [DevOps](https://github.com/Azure/fta-devops)
-	- DevTest Labs
+	- [DevTest Labs](https://github.com/Azure/fta-devops/blob/master/devtest-labs/articles/readme.md)
+	- [Mobile DevOps](https://github.com/Azure/fta-devops/blob/master/mobile-devops/articles/readme.md)
 	- VSTS
 * [Architectural Review](https://github.com/Azure/fta-architecturalreview)
-	- App Modernization
-	- Backup and Archiving
-	- Database
-	- Lift and Shift
-	- Devtest
+	- [App Modernization](https://github.com/Azure/fta-architecturalreview/blob/master/articles/application-modernisation.md)
+	- [Backup, Disaster Recovery & Archive](https://github.com/Azure/fta-architecturalreview/blob/master/articles/backup-archive-disaster-recovery.md)
+	- [Database](https://github.com/Azure/fta-architecturalreview/blob/master/articles/database.md)
+	- [Lift and Shift](https://github.com/Azure/fta-architecturalreview/blob/master/articles/lift-and-shift.md)
+	- [Devtest](https://github.com/Azure/fta-architecturalreview/blob/master/articles/devtest.md)
