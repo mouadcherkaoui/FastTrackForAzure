@@ -9,6 +9,8 @@ We are a team of dedicated engineers providing customers structured guidance to 
 	- IaaS Fundamentals
 	- PaaS Fundamentals
 	- Governance
+* [Managed Disks](https://github.com/Azure/fta-manageddisks)
+	- Managed Disks 
 * [Backup, Archive & Disaster Recovery](https://github.com/Azure/fta-backuparchivedr)
     - Backup and Archive
     - Disaster Recovery with ASR
