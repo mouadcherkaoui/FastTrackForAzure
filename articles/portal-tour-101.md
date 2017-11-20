@@ -116,5 +116,4 @@ You can also look at the historical view to see the service health from the past
 * The **What’s new** button will show you what has been released recently, similar to a news portal.
 
 # See the following resources to learn more
-* [Getting to the Azure Portal](https://pages.github.com/)
 * [Video: Tips, Tricks, How Tos and the Azure Portal](https://www.youtube.com/watch?v=DASqJEs1NiQ)
