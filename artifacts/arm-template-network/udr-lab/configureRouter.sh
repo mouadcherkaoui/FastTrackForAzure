@@ -19,5 +19,4 @@ echo "any net 10.0.2.0 netmask 255.255.255.0 gw 10.0.3.1" >> /etc/sysconfig/stat
 /etc/init.d/network restart
 
 #reboot
-#Tcpdump icmp
-#Tcpdump icmp -nni eth1
+#tcpdump -i eth0 icmp
