@@ -1,0 +1,140 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "skuName": {
+            "type": "string",
+            "defaultValue": "S1",
+            "allowedValues": [
+                "F1",
+                "D1",
+                "B1",
+                "B2",
+                "B3",
+                "S1",
+                "S2",
+                "S3",
+                "P1",
+                "P2",
+                "P3",
+                "P4"
+            ],
+            "metadata": {
+                "description": "Describes plan's pricing tier and instance size. Check details at https://azure.microsoft.com/en-us/pricing/details/app-service/"
+            }
+        },
+        "environmentName": {
+            "type": "string",
+            "metadata": {
+                "description": "Deploy POC to Azure Commercial or Azure Government"
+            },
+            "allowedValues": [
+                "mac",
+                "mag"
+            ]
+        },
+        "skuCapacity": {
+            "type": "int",
+            "defaultValue": 1,
+            "minValue": 1,
+            "metadata": {
+                "description": "Describes plan's instance count"
+            }
+        }
+    },
+    "variables": {
+        "environmentSettings": {
+            "mac": {
+                "regions": [
+                    "West US",
+                    "West Europe"
+                ],
+                "regionCodes": [
+                    "westus",
+                    "westeurope"
+                ]
+            },
+            "mag": {
+                "regions": [
+                    "US Gov Virginia",
+                    "US Gov Texas"
+                ],
+                "regionCodes": [
+                    "usgovvirginia",
+                    "usgovtexas"
+                ]
+            }
+        },
+        "currentEnvironmentSettings": "[variables('environmentSettings')[parameters('environmentName')]]",
+        "regions": "[variables('currentEnvironmentSettings').regions]",
+        "regionCodes": "[variables('currentEnvironmentSettings').regionCodes]",
+        "APIVersion": "2016-03-01",
+        "ASPName": "[concat('tm-web-plan-',parameters('environmentName'),'-')]",
+        "WebAppName": "[concat('tm-web-app-',parameters('environmentName'),'-',uniqueString(resourceGroup().id),'-')]",
+        "webSitePackage": "https://github.com/Azure/FastTrackForAzure/raw/master/artifacts/arm-template-network/tm-lab/website.zip"
+    },
+    "resources": [
+        {
+            "apiVersion": "[variables('APIVersion')]",
+            "name": "[concat(variables('ASPName'),variables('regionCodes')[copyIndex()])]",
+            "type": "Microsoft.Web/serverfarms",
+            "location": "[variables('regionCodes')[copyIndex()]]",
+            "tags": {
+                "displayName": "HostingPlan"
+            },
+            "sku": {
+                "name": "[parameters('skuName')]",
+                "capacity": "[parameters('skuCapacity')]"
+            },
+            "properties": {
+                "name": "[concat(variables('ASPName'),variables('regionCodes')[copyIndex()])]"
+            },
+            "copy": {
+                "name": "AppServiceLoop",
+                "count": 2
+            }
+        },
+        {
+            "apiVersion": "[variables('APIVersion')]",
+            "name": "[concat(variables('WebAppName'),variables('regionCodes')[copyIndex()])]",
+            "type": "Microsoft.Web/sites",
+            "location": "[variables('regionCodes')[copyIndex()]]",
+            "dependsOn": [
+                "[concat(variables('ASPName'),variables('regionCodes')[copyIndex()])]"
+            ],
+            "tags": {},
+            "properties": {
+                "name": "[concat(variables('WebAppName'),variables('regionCodes')[copyIndex()])]",
+                "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', concat(variables('ASPName'),variables('regionCodes')[copyIndex()]))]"
+            },
+            "copy": {
+                "name": "WebAppLoop",
+                "count": 2
+            },
+            "resources": [
+                {
+                    "name": "MSDeploy",
+                    "type": "extensions",
+                    "location": "[resourceGroup().location]",
+                    "apiVersion": "2015-08-01",
+                    "dependsOn": [
+                        "[resourceId('Microsoft.Web/sites', concat(variables('WebAppName'),variables('regionCodes')[copyIndex()]))]"
+                    ],
+                    "properties": {
+                        "addOnPackages": [
+                            {
+                                "packageUri": "[variables('webSitePackage')]",
+                                "connectionString": "",
+                                "AppOffline": true,
+                                "setParameters": {
+                                    "IIS Web Application Name": "[concat(variables('WebAppName'),variables('regionCodes')[copyIndex()])]"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "outputs": {}
+}
