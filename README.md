@@ -8,15 +8,16 @@ We are a team of dedicated engineers providing customers structured guidance to 
 * [Azure Fundamentals](https://github.com/Azure/fta-azurefundamentals)
 	- IaaS Fundamentals
 	- PaaS Fundamentals
+	- ARM Fundamentals
 	- Governance
 * [Managed Disks](https://github.com/Azure/fta-manageddisks)
 	- Managed Disks 
 * [Backup, Archive & Disaster Recovery](https://github.com/Azure/fta-backuparchivedr)
-    - Backup and Archive
-    - Disaster Recovery with ASR
+	- Backup and Archive
+	- Disaster Recovery with ASR
 * [Internal Business Apps](https://github.com/Azure/fta-internalbusinessapps)
-    - App Modernization
-    - Lift and Shift    
+	- App Modernization
+	- Lift and Shift    
 * [Customer Facing Apps](https://github.com/Azure/fta-customerfacingapps)
 	- Digital Marketing
 	- E-commerce
