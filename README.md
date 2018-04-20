@@ -1,5 +1,8 @@
 # Meet the FastTrack for Azure team!
-We are a team of dedicated engineers providing customers structured guidance to get started with Azure. We help setup and configure Azure infrastructure as well as provide architecture concepts, best practices and design principles for deploying applications on Azure.  Let's get started!
+We are a team of dedicated engineers providing customers structured guidance to get started with Azure. We help setup and configure Azure infrastructure as well as provide architecture concepts, best practices and design principles for deploying applications on Azure.
+
+**Find out more about [FastTrack for Azure here](https://azure.com/fasttrack)**. 
+
 
 # Table of Contents
 
