@@ -35,7 +35,7 @@ We are a team of dedicated engineers providing customers structured guidance to 
 	- DevTest Labs
 	- Mobile DevOps
 	- VSTS
-* [Architectural Review] (Private view until PG review)
+* [Architectural Review](https://github.com/Azure/fta-architecturalreview)
 	- App Modernization
 	- Backup, Disaster Recovery & Archive
 	- Database
