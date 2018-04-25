@@ -8,11 +8,11 @@ We are a team of dedicated engineers providing customers structured guidance to 
 
 ## Solutions and supporting scenario's
 
-* [Azure Fundamentals](https://github.com/Azure/fta-azurefundamentals)
-	- IaaS Fundamentals
-	- CaaS Fundamentals
-	- PaaS Fundamentals
-	- ARM Fundamentals
+* [Azure Foundations](https://github.com/Azure/fta-azurefoundations)
+	- IaaS Foundations
+	- CaaS Foundations
+	- PaaS Foundations
+	- ARM Foundations
 	- Governance
 * [Managed Disks](https://github.com/Azure/fta-manageddisks)
 	- Managed Disks 
