@@ -28,7 +28,7 @@ We are a team of dedicated engineers providing customers structured guidance to 
 * [Data Platform](https://github.com/Azure/fta-dataplatform)
 	- SQL on Azure IaaS
 	- Azure SQL DB
-* [HPC] (WIP)
+* [HPC](https://github.com/Azure/fta-hpc)
 * [SAP on Azure](https://github.com/Azure/fta-saponazure)
 	- Windows
 	- Linux
