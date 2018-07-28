@@ -3,28 +3,6 @@ We are a team of dedicated engineers providing customers structured guidance to 
 
 **Find out more about [FastTrack for Azure here](https://azure.com/fasttrack)**.
 
-# Table of Contents
-
-* [App Modernization](#app-modernization)
-* [Architectural Review](#architectural-review)
-* [Azure Foundations](#azure-foundations)
-* [Business Continuity & Disaster Recovery](#business-continuity--disaster-recovery)
-* [Cloud Native Apps](#cloud-native-apps)
-* [Cloud Scale Analytics](#cloud-scale-analytics)
-* [Data Modernization to Azure](#data-modernization-to-azure)
-* [DC Migration](#dc-migration)
-* [DevOps](#devops)
-* [Globally Distributed Data](#globally-distributed-data)
-* [High Performance Compute](#high-performance-compute)
-* [Intelligent Agents](#intelligent-agents)
-* [Intelligent Apps](#intelligent-apps)
-* [Linux on Azure](#linux-on-azure)
-* [Machine Learning](#machine-learning)
-* [Managed Disks](#managed-disks)
-* [Security and Management](#security-and-management)
-* [SAP on Azure](#sap-on-azure)
-* [Windows Server on Azure](#windows-server-on-azure)
-
 
 # Solutions and supporting scenario's
 
