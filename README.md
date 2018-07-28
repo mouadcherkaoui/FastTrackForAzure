@@ -16,18 +16,18 @@ We are a team of dedicated engineers providing customers structured guidance to 
 ## [Managed Disks](https://github.com/Azure/fta-manageddisks)
 * Managed Disks
 
-## Security and Management
+## [Security and Management](https://github.com/Azure/fta-securityandmanagement)
 * Governance
 * Identity for Organizations
 * Identity for Applications
 
-## DC Migration
+## [DC Migration](https://github.com/Azure/fta-dcmigration)
 * DC transformation planning
 
-## Windows Server on Azure
+## [Windows Server on Azure](https://github.com/Azure/fta-windowsserveronazure)
 * Rehost, Rebuild Windows on Azure
 
-## Linux on Azure
+## [Linux on Azure](https://github.com/Azure/fta-linuxonazure)
 * Rehost, Rebuild Linux on Azure
 
 ## [SAP on Azure](https://github.com/Azure/fta-saponazure)
@@ -52,7 +52,6 @@ We are a team of dedicated engineers providing customers structured guidance to 
 * Refactor, Rearchitect, Rebuild Applications (Microservices)
 * Refactor, Rearchitect, Rebuild Applications (Containers)
 
-
 ## [DevOps](https://github.com/Azure/fta-devops)
 * Dev/Test
 * DevOps (Windows)
@@ -62,22 +61,22 @@ We are a team of dedicated engineers providing customers structured guidance to 
 ## [Data Modernization to Azure](https://github.com/Azure/fta-dataplatform)
 * Refactor or Rebuild databases
 
-## Globally Distributed Data
+## [Globally Distributed Data](https://github.com/Azure/fta-globallydistributeddata)
 * Distributed Database
 
-## Cloud Scale Analytics
+## [Cloud Scale Analytics](https://github.com/Azure/fta-cloudscaleanalytics)
 * Big Data
 * Data Warehouse
 * Advanced Analytics
 
-## Machine Learning
+## [Machine Learning](https://github.com/Azure/fta-machinelearning)
 * Machine Learning
 
-## Intelligent Apps
+## [Intelligent Apps](https://github.com/Azure/fta-intelligentapps)
 * Intelligent Apps (Web)
 * Intelligent Apps (Mobile)
 
-## Intelligent Agents
+## [Intelligent Agents](https://github.com/Azure/fta-intelligentagents)
 * Bots
 * Cognitive Services
 
