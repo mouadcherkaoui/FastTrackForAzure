@@ -6,7 +6,7 @@ We are a team of dedicated engineers providing customers structured guidance to 
 
 # Solutions and supporting scenario's
 
-## [Azure Foundations](https://github.com/Azure/fta-azurefoundations)
+## [Azure](https://github.com/Azure/fta-azurefoundations)
 * IaaS Foundations
 * CaaS Foundations
 * PaaS Foundations
@@ -16,8 +16,10 @@ We are a team of dedicated engineers providing customers structured guidance to 
 ## [Managed Disks](https://github.com/Azure/fta-manageddisks)
 * Managed Disks
 
-## [Security and Management](https://github.com/Azure/fta-securityandmanagement)
+## [Management](https://github.com/Azure/fta-securityandmanagement)
 * Governance
+
+## Security 
 * Identity for Organizations
 * Identity for Applications
 
@@ -25,32 +27,26 @@ We are a team of dedicated engineers providing customers structured guidance to 
 * DC transformation planning
 
 ## [Windows Server on Azure](https://github.com/Azure/fta-windowsserveronazure)
-* Rehost, Rebuild Windows on Azure
+* Windows Server on Azure
 
 ## [Linux on Azure](https://github.com/Azure/fta-linuxonazure)
-* Rehost, Rebuild Linux on Azure
+* Linux on Azure
 
 ## [SAP on Azure](https://github.com/Azure/fta-saponazure)
-* SAP on Windows (with SQL)
-* SAP on Windows and Linux (Oracle)
-* SAP on Windows and Linux (DB2)
-* SAP Hana
+* SAP on Azure
 
 ## [Business Continuity & Disaster Recovery](https://github.com/Azure/fta-backuparchivedr)
-* Backup and Archive
-* Disaster Recovery
+* Business Continuity and Disaster Recovery
 
 ## [High Performance Compute](https://github.com/Azure/fta-hpc)
-* Cloud native clusters
-* Hybrid clusters
+* High Performance Compute
 
 ## [Cloud Native Apps](https://github.com/Azure/fta-customerfacingapps)
 * Event-driven Apps
 
 ## [App Modernization](https://github.com/Azure/fta-internalbusinessapps)
-* Refactor, Rearchitect, Rebuild Applications
-* Refactor, Rearchitect, Rebuild Applications (Microservices)
-* Refactor, Rearchitect, Rebuild Applications (Containers)
+* App Mod: Web
+* App Mod: Microservices
 
 ## [DevOps](https://github.com/Azure/fta-devops)
 * Dev/Test
@@ -59,26 +55,27 @@ We are a team of dedicated engineers providing customers structured guidance to 
 * DevOps (Mobile)
 
 ## [Data Modernization to Azure](https://github.com/Azure/fta-dataplatform)
-* Refactor or Rebuild databases
+* Data Mod: SQL Migration
+* Data Mod: Transactional Apps
+* Data Mod: NoSQL Migration
+* Data Mod: OSS Migration
 
 ## [Globally Distributed Data](https://github.com/Azure/fta-globallydistributeddata)
-* Distributed Database
+* Globally Distributed Database
 
 ## [Cloud Scale Analytics](https://github.com/Azure/fta-cloudscaleanalytics)
-* Big Data
-* Data Warehouse
-* Advanced Analytics
+* Analytics: Big Data (AA & ML)
+* Analytics: Modern Data Warehouse
+* Analytics: Real-time Analytics
 
 ## [Machine Learning](https://github.com/Azure/fta-machinelearning)
 * Machine Learning
 
 ## [Intelligent Apps](https://github.com/Azure/fta-intelligentapps)
-* Intelligent Apps (Web)
-* Intelligent Apps (Mobile)
+* AI:Cognitive Services
 
 ## [Intelligent Agents](https://github.com/Azure/fta-intelligentagents)
-* Bots
-* Cognitive Services
+* AI:Bots
 
 ## [Architectural Review](https://github.com/Azure/fta-architecturalreview)
 * App Modernization
