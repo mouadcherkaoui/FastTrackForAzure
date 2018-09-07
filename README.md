@@ -16,10 +16,8 @@ We are a team of dedicated engineers providing customers structured guidance to 
 ## [Managed Disks](https://github.com/Azure/fta-manageddisks)
 * Managed Disks
 
-## [Management](https://github.com/Azure/fta-securityandmanagement)
+## [Security and Management](https://github.com/Azure/fta-securityandmanagement)
 * Governance
-
-## Security 
 * Identity for Organizations
 * Identity for Applications
 
@@ -59,6 +57,7 @@ We are a team of dedicated engineers providing customers structured guidance to 
 * Data Mod: Transactional Apps
 * Data Mod: NoSQL Migration
 * Data Mod: OSS Migration
+* Data Mod: Database on VM 
 
 ## [Globally Distributed Data](https://github.com/Azure/fta-globallydistributeddata)
 * Globally Distributed Database
