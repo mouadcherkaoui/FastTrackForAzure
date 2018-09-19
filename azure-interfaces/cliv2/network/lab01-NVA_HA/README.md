@@ -141,13 +141,13 @@ az configure --defaults group=vnetTest
 **Step 5.** Deploy the master template that will create our initial network configuration. The syntax here depends on the operating system you are using. For example, for Windows use this command:
 
 <pre lang="...">
-az group deployment create --name netLabDeployment --template-uri https://raw.githubusercontent.com/erjosito/azure-networking-lab/master/NetworkingLab_master.json --resource-group vnetTest --parameters "{\"createVPNgw\":{\"value\":\"no\"}, \"adminUsername\":{\"value\":\"lab-user\"}, \"adminPassword\":{\"value\":\"Microsoft123!\"}}" 
+az group deployment create --name netLabDeployment --template-uri https://raw.githubusercontent.com/Azure/FastTrackForAzure/master/azure-interfaces/cliv2/network/lab01-NVA_HA/NetworkingLab_master.json --resource-group vnetTest --parameters "{\"createVPNgw\":{\"value\":\"no\"}, \"adminUsername\":{\"value\":\"lab-user\"}, \"adminPassword\":{\"value\":\"Microsoft123!\"}}" 
 </pre>
 
 Or alternatively use the following command if you are using a Linux operative system:
 
 <pre lang="...">
-az group deployment create --name netLabDeployment --template-uri https://raw.githubusercontent.com/erjosito/azure-networking-lab/master/NetworkingLab_master.json --resource-group vnetTest --parameters '{"createVPNgw":{"value":"no"}, "adminUsername":{"value":"lab-user"}, "adminPassword":{"value":"Microsoft123!"}}'
+az group deployment create --name netLabDeployment --template-uri https://raw.githubusercontent.com/Azure/FastTrackForAzure/master/azure-interfaces/cliv2/network/lab01-NVA_HA/NetworkingLab_master.json --resource-group vnetTest --parameters '{"createVPNgw":{"value":"no"}, "adminUsername":{"value":"lab-user"}, "adminPassword":{"value":"Microsoft123!"}}'
 </pre>
 
 **Step 6.** Since the previous command will take a while (around 15 minutes), open another command window (see Step 3 for detailed instructions) to monitor the deployment progress. Note you might have to login in this second window too:
@@ -1428,14 +1428,14 @@ In this lab we will deploy a VMSS containing Linux appliances as the ones we saw
 **Step 1.** The first thing we are going to do is to deploy a VMSS and an additional Load Balancer to our lab. You can use the ARM template in this Github repository to do so, where all values are predetermined and you only need to supply the password for the VMs:
 
 <pre lang="...">
-<b>az group deployment create --name vmssDeployment --template-uri https://raw.githubusercontent.com/erjosito/azure-networking-lab/master/nvaLinux_1nic_noVnet_ScaleSet_ILBonly.json --parameters '{"vmPwd":{"value":"Microsoft123!"}}'</b>
+<b>az group deployment create --name vmssDeployment --template-uri https://raw.githubusercontent.com/Azure/FastTrackForAzure/master/azure-interfaces/cliv2/network/lab01-NVA_HA/nvaLinux_1nic_noVnet_ScaleSet_ILBonly.json --parameters '{"vmPwd":{"value":"Microsoft123!"}}'</b>
 <i>Output omitted</i>
 </pre>
 
 Alternatively, if you are using the Azure CLI in a Windows OS, you can use this syntax:
 
 <pre lang="...">
-<b>az group deployment create --name vmssDeployment --template-uri https://raw.githubusercontent.com/erjosito/azure-networking-lab/master/nvaLinux_1nic_noVnet_ScaleSet_ILBonly.json --parameters "{\"vmPwd\":{\"value\":\"Microsoft123!\"}}"</b>
+<b>az group deployment create --name vmssDeployment --template-uri https://raw.githubusercontent.com/Azure/FastTrackForAzure/master/azure-interfaces/cliv2/network/lab01-NVA_HA/nvaLinux_1nic_noVnet_ScaleSet_ILBonly.json --parameters "{\"vmPwd\":{\"value\":\"Microsoft123!\"}}"</b>
 <i>Output omitted</i>
 </pre>
 
