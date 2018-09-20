@@ -1,4 +1,4 @@
-# Azure Networking Lab - WORK IN PROGRESS!!!!
+# Azure Networking Lab
 
 # Table of Contents
 
