@@ -24,15 +24,15 @@ We are a team of dedicated engineers providing customers structured guidance to 
 ## [DC Migration](https://github.com/Azure/fta-dcmigration)
 * DC transformation planning
 
-## [Windows Server on Azure]
+## Windows Server on Azure
 [//]:(https://github.com/Azure/fta-windowsserveronazure)
 * Windows Server on Azure
 
-## [Linux on Azure]
+## Linux on Azure
 [//]:(https://github.com/Azure/fta-linuxonazure)
 * Linux on Azure
 
-## [SAP on Azure]
+## SAP on Azure
 [//]:(https://github.com/Azure/fta-saponazure)
 * SAP on Azure
 
@@ -62,25 +62,25 @@ We are a team of dedicated engineers providing customers structured guidance to 
 * Data Mod: OSS Migration
 * Data Mod: Database on VM 
 
-## [Globally Distributed Data]
+## Globally Distributed Data
 [//]:(https://github.com/Azure/fta-globallydistributeddata)
 * Globally Distributed Database
 
-## [Cloud Scale Analytics]
+## Cloud Scale Analytics
 [//]:(https://github.com/Azure/fta-cloudscaleanalytics)
 * Analytics: Big Data (AA & ML)
 * Analytics: Modern Data Warehouse
 * Analytics: Real-time Analytics
 
-## [Machine Learning]
+## Machine Learning
 [//]:(https://github.com/Azure/fta-machinelearning)
 * Machine Learning
 
-## [Intelligent Apps]
+## Intelligent Apps
 [//]:(https://github.com/Azure/fta-intelligentapps)
 * AI:Cognitive Services
 
-## [Intelligent Agents]
+## Intelligent Agents
 [//]:(https://github.com/Azure/fta-intelligentagents)
 * AI:Bots
 
