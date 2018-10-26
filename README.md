@@ -32,7 +32,7 @@ We are a team of dedicated engineers providing customers structured guidance to 
 [//]:(https://github.com/Azure/fta-linuxonazure)
 * Linux on Azure
 
-## SAP on Azure(https://github.com/Azure/fta-saponazure)
+## [SAP on Azure](https://github.com/Azure/fta-saponazure)
 * SAP on Azure
 
 ## [Business Continuity & Disaster Recovery](https://github.com/Azure/fta-backuparchivedr)
