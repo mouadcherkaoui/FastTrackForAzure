@@ -73,7 +73,7 @@ We are a team of dedicated engineers providing customers structured guidance to 
 
 ## Machine Learning
 [//]:(https://github.com/Azure/fta-machinelearning)
-* Machine Learning
+* Big Data (AA & ML)
 
 ## Intelligent Apps
 [//]:(https://github.com/Azure/fta-intelligentapps)
