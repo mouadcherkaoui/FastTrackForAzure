@@ -50,7 +50,7 @@ We are a team of dedicated engineers providing customers structured guidance to 
 
 ## [DevOps](https://github.com/Azure/fta-devops)
 * Dev/Test
-* DevOps (Windows)
+* DevOps (Microsoft)
 * DevOps (OSS)
 * DevOps (Mobile)
 
