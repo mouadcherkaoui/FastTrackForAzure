@@ -18,8 +18,9 @@ We are a team of dedicated engineers providing customers structured guidance to 
 
 ## [Security and Management](https://github.com/Azure/fta-securityandmanagement)
 * Governance
-* Identity for Organizations
-* Identity for Applications
+* Monitoring
+* Security
+* Identity
 
 ## [DC Migration](https://github.com/Azure/fta-dcmigration)
 * DC transformation planning
