@@ -29,8 +29,7 @@ We are a team of dedicated engineers providing customers structured guidance to 
 [//]:(https://github.com/Azure/fta-windowsserveronazure)
 * Windows Server on Azure
 
-## Linux on Azure
-[//]:(https://github.com/Azure/fta-linuxonazure)
+## [Linux on Azure](https://github.com/Azure/fta-linuxonazure)
 * Linux on Azure
 
 ## [SAP on Azure](https://github.com/Azure/fta-saponazure)
